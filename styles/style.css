@@ -1,0 +1,129 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+}
+header img{
+    position: absolute;
+    left: 0%;
+    width: 80px;
+    height: 80px;
+}
+
+header h1{
+    color: #191b39;
+    font-family: 'OCR A Std', monospace;
+    font-weight: bold;
+}
+main{
+    background: #0bf5b5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 10px;
+    width: 100vw;
+}
+
+main img{
+    width: 100vw;
+}
+
+main nav{
+    margin-left: 10px;
+}
+
+main nav a{
+    background-color: aliceblue;
+    color: #191b39;
+    padding: 5px;
+    font-weight: bolder;
+    font-style: none;
+    border-left: white 5px solid;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'OCR A Std', monospace;
+    font-weight: bold;
+}
+main .destaques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    background-color: #0bf5b5;
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main .destaques h2{
+    margin-left: 10px;
+    justify-self: center;
+    align-self: center;
+    padding: 25px;
+    border-radius: 50px;
+    font-family: 'OCR A Std', monospace;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+.produtos{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    gap: 0px;
+}
+
+.produto img{
+    width: 160px;
+}
+
+
+.conteudo{
+    display: flex;
+    background-color: #0bf5b5;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'OCR A Std', monospace;
+    font-weight: bold;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 50px;
+    justify-content: center;
+    
+}
+
+.conteudo a{
+    text-decoration: none;
+    color: #191b39;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
